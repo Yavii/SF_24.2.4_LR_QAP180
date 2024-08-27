@@ -5,14 +5,14 @@ class TestCalc:
     def setup_method(self):
         self.calc = Calculator()
 
-    def test_adding_calculate_correctly(self):
+    def test_adding_calculate_correctly(self): #Проверка сложения
         assert self.calc.adding(2, 2) == 4
 
-    def test_multiply_calculate_correctly(self):
+    def test_multiply_calculate_correctly(self): #Проверка умножения
         assert self.calc.multiply(3, 3) == 9
 
-    def test_subtraction_calculate_correctly(self):
+    def test_subtraction_calculate_correctly(self): #Проверка вычитания
         assert self.calc.subtraction(5,2) == 3
 
-    def test_division_calculate_correctly(self):
+    def test_division_calculate_correctly(self): # Проверка деления
         assert self.calc.division(10,2) == 5
